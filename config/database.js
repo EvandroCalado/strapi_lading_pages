@@ -2,12 +2,16 @@ module.exports = ({ env }) => ({
   connection: {
     client: 'postgres',
     connection: {
-      host: env('DATABASE_HOST', 'suleiman.db.elephantsql.com'),
+      host: env('DATABASE_HOST', 'localhost'),
       port: env.int('DATABASE_PORT', 5432),
-      database: env('DATABASE_NAME', 'inimtldt'),
-      user: env('DATABASE_USERNAME', 'inimtldt'),
-      password: env('DATABASE_PASSWORD', 'Wp6TGAfKktOAaQyy0dB6FiDoFj8XRyOL'),
-      ssl: env.bool('DATABASE_SSL', true),
+      database: env('DATABASE_NAME', 'database'),
+      user: env('DATABASE_USERNAME', 'root'),
+      password: env('DATABASE_PASSWORD', ''),
+      ssl: env.bool('DATABASE_SSL', false),
     },
+    pool: {
+      min: 0,
+      max: 5
+    }
   },
 });
