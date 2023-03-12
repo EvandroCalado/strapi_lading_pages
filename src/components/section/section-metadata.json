@@ -1,7 +1,8 @@
 {
   "collectionName": "components_section_section_metadata",
   "info": {
-    "displayName": "section_metadata"
+    "displayName": "section_metadata",
+    "description": ""
   },
   "options": {},
   "attributes": {

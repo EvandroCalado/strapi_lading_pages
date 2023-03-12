@@ -1,17 +1,14 @@
 {
-  "collectionName": "components_section_section_contents",
+  "collectionName": "components_section_section_contacts",
   "info": {
-    "displayName": "section_content",
-    "description": ""
+    "displayName": "section_contact"
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
-    "content": {
-      "type": "richtext",
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.contact",
       "required": true
     },
     "metadata": {

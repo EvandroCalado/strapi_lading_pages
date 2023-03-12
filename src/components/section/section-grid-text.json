@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_section_section_grid_texts",
+  "info": {
+    "displayName": "section_grid_text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "text_grid": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.text-grid"
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section-metadata"
+    }
+  }
+}

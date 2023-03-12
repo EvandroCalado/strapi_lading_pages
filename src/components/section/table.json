@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_section_tables",
+  "info": {
+    "displayName": "table",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "head": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    },
+    "footer": {
+      "type": "string"
+    }
+  }
+}

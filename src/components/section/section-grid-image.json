@@ -1,34 +1,30 @@
 {
-  "collectionName": "components_section_section_two_columns",
+  "collectionName": "components_section_section_grid_images",
   "info": {
-    "displayName": "section_two_columns",
+    "displayName": "section_grid_image",
     "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
-      "required": true,
-      "maxLength": 255,
-      "minLength": 3
+      "required": true
     },
     "description": {
       "type": "text",
       "required": true
     },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+    "image_grid": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.image-grid",
+      "required": true
     },
     "metadata": {
       "type": "component",
       "repeatable": false,
       "component": "section.section-metadata",
-      "required": true
+      "required": false
     }
   }
 }

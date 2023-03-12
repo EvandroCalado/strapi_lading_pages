@@ -28,9 +28,11 @@
       "type": "dynamiczone",
       "components": [
         "section.section-two-columns",
-        "section.section-grid",
         "section.section-content",
-        "section.image-grid"
+        "section.section-grid-image",
+        "section.section-grid-text",
+        "section.pricing",
+        "section.section-contact"
       ],
       "required": true
     },

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_section_pricings",
+  "info": {
+    "displayName": "pricing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description_one": {
+      "type": "text",
+      "required": true
+    },
+    "description_two": {
+      "type": "text",
+      "required": true
+    },
+    "table": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.table"
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section-metadata"
+    }
+  }
+}
