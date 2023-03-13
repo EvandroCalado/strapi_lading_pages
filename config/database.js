@@ -9,9 +9,17 @@ module.exports = ({ env }) => ({
       password: env('DATABASE_PASSWORD', ''),
       ssl: env.bool('DATABASE_SSL', true),
     },
-    // pool: {
-    //   min: 0,
-    //   max: 5
-    // }
+    pool: {
+      min: 0,
+      max: 5,
+      acquireTimeoutMillis: 300000,
+      createTimeoutMillis: 300000,
+      destroyTimeoutMillis: 50000,
+      idleTimeoutMillis: 300000,
+      reapIntervalMillis: 10000,
+      createRetryIntervalMillis: 2000,
+      propagateCreateError: false,
+    },
+    acquireConnectionTimeout: 60000,
   },
 });
