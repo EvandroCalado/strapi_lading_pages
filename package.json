@@ -6,7 +6,8 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
+    "build": "babel src -d lib",
+    "test": "jest",
     "strapi": "strapi"
   },
   "dependencies": {
