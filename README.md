@@ -1,6 +1,6 @@
 # 💻 Link of API
 
-Strapi API [click here to access API json](https://strapi-production-b207.up.railway.app/api/pages?populate[sections][populate]=*&populate[menu][populate]=*)
+[Click here to access strapi API json link](https://strapi-production-b207.up.railway.app/api/pages?populate[sections][populate]=*&populate[menu][populate]=*)
 
 # 🚀 Getting started with Strapi
 
