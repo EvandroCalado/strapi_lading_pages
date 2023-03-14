@@ -2,9 +2,7 @@
 
 ### `deploy`
 
-```
 [Click here to access strapi API json link](https://strapi-production-b207.up.railway.app/api/pages?populate[sections][populate]=*&populate[menu][populate]=*)
-```
 
 # 🚀 Getting started with Strapi
 
