@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_section_pricings",
+  "collectionName": "components_section_section_pricings",
   "info": {
-    "displayName": "section_pricing",
-    "description": ""
+    "displayName": "section_pricing"
   },
   "options": {},
   "attributes": {
@@ -21,12 +20,14 @@
     "table": {
       "type": "component",
       "repeatable": true,
-      "component": "section.table"
+      "component": "section.table",
+      "required": true
     },
     "metadata": {
       "type": "component",
       "repeatable": false,
-      "component": "section.section-metadata"
+      "component": "section.section-metadata",
+      "required": true
     }
   }
 }

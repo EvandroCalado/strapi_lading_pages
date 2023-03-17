@@ -31,8 +31,8 @@
         "section.section-content",
         "section.section-grid-image",
         "section.section-grid-text",
-        "section.pricing",
-        "section.section-contact"
+        "section.section-contact",
+        "section.section-pricing"
       ],
       "required": true
     },
