@@ -6,15 +6,15 @@
     "description": "",
     "termsOfService": "YOUR_TERMS_OF_SERVICE_URL",
     "contact": {
-      "name": "Evandro",
-      "email": "evandrocalado07@gmail.com",
-      "url": "https://github.com/EvandroCalado"
+      "name": "TEAM",
+      "email": "contact-email@something.io",
+      "url": "mywebsite.io"
     },
     "license": {
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-03-18T02:45:13.909Z"
+    "x-generation-date": "2023-03-18T03:53:15.687Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
